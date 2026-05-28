@@ -21,29 +21,31 @@
                 <li><a href="#contato">Contato</a></li>
             </ul>
             <form action="search" method="get">
-                <input type="text" placeholder="Buscar...">
+                <input id="search" class="caixa-pesquisa" type="text" placeholder="Buscar...">
             </form>
             <div class="user-greeting">
                 <p>Olá, usuário</p>
-                <a href=""><img src="../img/user.png" alt=""></a>
+                <a href=""><img id="user-photo" src="../img/user.png" alt=""></a>
             </div>
             <a href=""><img id="shopping-cart" src="../img/shoppingCart.png" alt="Carrinho de compras"></a>
         </nav>
     </header>
-    <section>
+    <section id="login">
         <div class="body-grid">
-            <img id="logo-loja" src="../img/loja.png" alt="Pizzaria Irarire">
+            <div class="container">
+                <img id="logo-loja" src="../img/loja.png" alt="Pizzaria Irarire">
+            </div>
             <div class="body-card-orange">
                 <aside id="login">
                     <h2>Seja bem-vindo!</h2>
                     <p>Primeiro Acesso? <a href="cadastro.html">Cadastre-se</a></p>
                     <form action="">
                         <p>Usuário (e-mail):</p>
-                        <input type="email" placeholder="Digite seu e-mail">
+                        <input id="email" type="email" placeholder="Digite seu e-mail">
                         <p>Senha:</p>
-                        <input type="password" placeholder="Digite sua senha">
+                        <input id="password" type="password" placeholder="Digite sua senha">
                         <div class="flex-row-unjustify">
-                            <input type="checkbox"> Lembrar-me
+                            <input id="remember-me" type="checkbox"> Lembrar-me
                         </div>
                         <button type="submit">Entrar</button>
                     </form>
@@ -54,7 +56,7 @@
     <footer id="contato">
         <p>Tell: (11) 99999-9999</p>
         <p>Email: pizzariairare@gmail.com</p>
-        <small>© 2026 Pizzaria Irarire. Todos os direitos reservados.</small>
+        <small>© 2026 Pizzaria Irare. Todos os direitos reservados.</small>
     </footer>
 
 </body>
