@@ -1,3 +1,5 @@
+/*! ------------------------------------------ Configurações Gerais ------------------------------------------ */
+
 * {
     padding: 0;
     margin: 0;
@@ -21,6 +23,10 @@ button {
     cursor: pointer;
     background-color: transparent;
 }
+
+/*
+! ------------------------------------- Estilização do header global -------------------------------------- 
+*/
 
 header {
     max-width: 100vw;
@@ -64,33 +70,13 @@ nav {
     justify-content: center;
     margin: auto;
     align-items: center;
-    gap: 10%;
+    gap: 7%;
     position: relative;
     background-color: #ff751f;
     max-width: 100vw;
     min-height: 10vh;
     padding: 15px 40px;
     z-index: 10;
-}
-
-footer {
-    position: absolute;
-    bottom: end;
-    width: 100%;
-    max-width: 100vw;
-    background-color: #ff751f;
-    text-align: center;
-    color: #faf9f6;
-    padding: 10px 0px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-footer p {
-    padding-bottom: 5px;
-}
-
-footer small {
-    padding-top: 10px;
 }
 
 .caixa-pesquisa {
@@ -102,46 +88,6 @@ footer small {
     font-size: 22px;
     text-align: center;
     font-weight: bold;
-}
-
-.container {
-    align-self: center;
-    justify-self: center;
-    padding: 18px;
-    width: fit-content;
-    height: fit-content;
-}
-
-.conttent-box {
-    position: relative;
-    z-index: 1;
-    max-width: 100%;
-    width: fit-content;
-    background-color: #ff914d;
-    border-radius: 22px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    text-align: center;
-    padding: 15px 20px;
-    margin: auto;
-    margin-top: 20px;
-}
-
-#about-us .conttent-box {
-    background-color: #F5E6CA;
-    color: #252526;
-}
-
-.flex-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.flex-row-unjustify {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 10px;
 }
 
 .list-without-bullets {
@@ -172,97 +118,6 @@ footer small {
     min-height: 100%;
 }
 
-.cardapio-button {
-    display: flex;
-    min-width: fit-content;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ff914d;
-    border-radius: 22px;
-    padding: 10px;
-    text-decoration: none;
-    color: #7a0000;
-    font-size: 44px;
-    font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.cardapio-button:hover {
-    scale: 1.01;
-    background-color: #ffc099;
-    transition: 0.3s;
-}
-
-.cardapio-button:focus {
-    scale: 1.01;
-    background-color: #ffc099;
-    transition: 0.3s;
-}
-
-.cardapio-grid {
-    display: grid;
-    grid-template-rows: auto;
-    margin: auto;
-    margin-bottom: 4vh;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    padding: 10px 20px;
-    margin-top: 5vh;
-    width: 55vw;
-    height: 65vh;
-    background-color: #ffc099;
-    border-radius: 8px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
-.cardapio-card {
-    display: grid;
-    margin: 4px;
-    height: 13vh;
-    grid-template-columns: 0.3fr 1fr 0.4fr;
-    background-color: #f4f4f4;
-    border-radius: 7px;
-    padding: 10px;
-}
-
-.cardapio-card-1 {
-    align-items: center;
-    display: flex;
-    margin: auto;
-}
-
-.cardapio-card-2 {
-    margin-left: 10px;
-    justify-items: start;
-}
-
-.cardapio-card-3 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.conttent-box h1 {
-    font-size: 60px;
-    color: #7a0000;
-}
-
-.conttent-box h2 {
-    color: #7a0000;
-    font-size: 43px;
-}
-
-.conttent-box h3 {
-    color: #7a0000;
-    font-size: 40px;
-    padding: 15px 2px;
-}
-
-.pizzas-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
 .pizza-card {
     margin: auto;
 }
@@ -272,33 +127,76 @@ footer small {
     padding-bottom: 30px;
 }
 
-.pizza-img {
-    height: 8vh;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 5px;
+#logo {
+    width: 7%;
 }
 
-.pizza-name {
-    font-size: 18px;
-    color: #7a0000;
-    font-weight: bold;
-    margin-top: 8px;
-    margin-bottom: 4px;
+#shopping-cart {
+    width: 4.5vw;
 }
 
-.pizza-desc {
-    font-size: 14px;
+#cadastro-button {
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    min-width: fit-content;
+    padding: 20px;
     color: #252526;
-    margin-bottom: 8px;
-    line-height: 1.3;
 }
 
-.pizza-price {
-    font-size: 25px;
-    color: #ff751f;
-    font-weight: bold;
+#cadastro-button:hover {
+    background-color: #7a0000;
+    color: #f4f4f4;
+    transition: 0.3s;
 }
+
+#cadastro-button:focus {
+    background-color: #7a0000;
+    color: #f4f4f4;
+    transition: 0.3s;
+}
+
+#user-photo {
+    width: 100%;
+}
+
+#pizza-fundo {
+    position: absolute;
+    right: 0;
+    top: -10vh;
+    height: 90vh;
+    z-index: -1;
+}
+
+#fogos {
+    position: relative;
+    z-index: 3;
+    margin-left: 10px;
+    margin-top: -80px;
+    width: 95%;
+    object-fit: cover;
+}
+
+#seta-cardapio {
+    height: 7vh;
+}
+
+#button-back-red {
+    height: 6vh;
+    min-height: 44px;
+}
+
+#button-back-yellow {
+    height: 6vh;
+    min-height: 44px;
+}
+
+/*
+! ---------------------------------------------------------------------------------------- 
+*/
+
+/* 
+! --------------------------------- Estilização do Index ---------------------------------
+*/
 
 .body-grid {
     display: grid;
@@ -321,6 +219,10 @@ footer small {
     justify-items: center;
     align-content: center;
 }
+
+/*
+* --------------------------- Estilização do body-card-orange ---------------------------
+*/
 
 .body-card-orange h2 {
     color: #faf9f6;
@@ -383,8 +285,201 @@ footer small {
     margin-top: 20px;
 }
 
+/*
+* ---------------------------------------------------------------------------------------
+*/
+
+.cardapio-button {
+    display: flex;
+    min-width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff914d;
+    border-radius: 22px;
+    padding: 10px;
+    text-decoration: none;
+    color: #7a0000;
+    font-size: 44px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cardapio-button:hover {
+    scale: 1.01;
+    background-color: #ffc099;
+    transition: 0.3s;
+}
+
+.cardapio-button:focus {
+    scale: 1.01;
+    background-color: #ffc099;
+    transition: 0.3s;
+}
+
+.container {
+    align-self: center;
+    justify-self: center;
+    padding: 18px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.conttent-box {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    width: fit-content;
+    background-color: #ff914d;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#about-us .conttent-box {
+    background-color: #F5E6CA;
+    color: #252526;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-row-unjustify {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+/*
+! --------------------------------------------------------------------------------------
+*/
+
+/*
+! --------------------------- Estilização do Footer ------------------------------------ 
+*/
+
+footer {
+    position: absolute;
+    bottom: end;
+    width: 100%;
+    max-width: 100vw;
+    background-color: #ff751f;
+    text-align: center;
+    color: #faf9f6;
+    padding: 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+footer p {
+    padding-bottom: 5px;
+}
+
+footer small {
+    padding-top: 10px;
+}
+
+/*
+! ----------------------------------------------------------------------------------------
+*/
+
+/*
+! --------------------------------- Pagina do Cardapio -----------------------------------
+*/
+
+.cardapio-grid {
+    display: grid;
+    grid-template-rows: auto;
+    margin: auto;
+    margin-bottom: 4vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px 20px;
+    margin-top: 5vh;
+    width: 55vw;
+    height: 65vh;
+    background-color: #ffc099;
+    border-radius: 8px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.cardapio-card {
+    display: grid;
+    margin: 4px;
+    height: 13vh;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    background-color: #f4f4f4;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.cardapio-card-1 {
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.cardapio-card-2 {
+    margin-left: 10px;
+    justify-items: start;
+}
+
+.cardapio-card-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conttent-box h1 {
+    font-size: 60px;
+    color: #7a0000;
+}
+
+.conttent-box h2 {
+    color: #7a0000;
+    font-size: 43px;
+}
+
+.conttent-box h3 {
+    color: #7a0000;
+    font-size: 40px;
+    padding: 15px 2px;
+}
+
+.pizzas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.pizza-img {
+    height: 8vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.pizza-name {
+    font-size: 18px;
+    color: #7a0000;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.pizza-desc {
+    font-size: 14px;
+    color: #252526;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
 .button-add-cart {
-    height: 4vh;
+    height: 6vh;
 }
 
 .button-add-cart:hover {
@@ -397,68 +492,20 @@ footer small {
     transition: 0.3s;
 }
 
-#logo {
-    width: 7%;
+#cardapio {
+    height: 100%;
 }
 
-#user-photo {
-    width: 100%;
+#pizza-price {
+    font-size: 25px;
+    color: #ff751f;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-#shopping-cart {
-    width: 4.5vw;
-}
-
-#cadastro-button {
-    background-color: #f4f4f4;
-    border-radius: 30px;
-    min-width: fit-content;
-    padding: 20px;
-    color: #252526;
-}
-
-#cadastro-button:hover {
-    background-color: #7a0000;
-    color: #f4f4f4;
-    transition: 0.3s;
-}
-
-#cadastro-button:focus {
-    background-color: #7a0000;
-    color: #f4f4f4;
-    transition: 0.3s;
-}
-
-#pizza-fundo {
-    position: absolute;
-    right: 0;
-    top: -10vh;
-    height: 90vh;
-    z-index: -1;
-}
-
-#fogos {
-    position: relative;
-    z-index: 3;
-    margin-left: 10px;
-    margin-top: -80px;
-    width: 95%;
-    object-fit: cover;
-}
-
-#seta-cardapio {
-    height: 7vh;
-}
-
-#button-back-red {
-    height: 6vh;
-    min-height: 44px;
-}
-
-#button-back-yellow {
-    height: 6vh;
-    min-height: 44px;
-}
+/*
+! ----------------------------------------------------------------------
+*/
 
 #pizza-icon {
     height: 100%;
@@ -514,23 +561,20 @@ footer small {
     margin: auto;
 }
 
-#cardapio {
-    height: 100%;
+#icon-servidor {
+    height: 65vh;
+    align-self: center;
+    margin: auto;
 }
 
-@media (max-width: 1920px) {
-    nav {
-        gap: 7%;
-    }
-
-    #logo-loja {
-        height: 40vh;
-    }
-}
 
 @media (max-width: 1440px) {
     nav {
         gap: 4%;
+    }
+
+    .cardapio-card {
+        grid-template-columns: 0.4fr 0.9fr 0.5fr;
     }
 }
 
@@ -547,6 +591,10 @@ footer small {
     }
 
     #logo-loja {
+        height: 30vh;
+    }
+
+    #icon-servidor {
         height: 30vh;
     }
 
@@ -613,6 +661,10 @@ footer small {
         width: 80%;
     }
 
+    .cardapio-card {
+        grid-template-columns: 0.4fr 0.9fr 0.4fr;
+    }
+
     .caixa-pesquisa {
         width: 100%;
         padding: 10px;
@@ -626,6 +678,11 @@ footer small {
     #shopping-cart {
         width: 80%;
         height: 80%;
+    }
+
+    #cardapio .conttent-box h1 {
+        font-size: 50px;
+        color: rgb(122, 0, 0);
     }
 }
 
@@ -692,6 +749,10 @@ footer small {
         padding: 5px;
         color: #252526;
         min-width: 30px;
+    }
+
+    .cardapio-card {
+        grid-template-columns: 0.4fr 0.8fr 0.5fr;
     }
 
     #shopping-cart {
@@ -791,5 +852,30 @@ footer small {
     #about-us .conttent-box p {
         font-size: 14px;
         max-width: 93%;
+    }
+
+    #cardapio .conttent-box h1 {
+        font-size: 30px;
+        color: rgb(122, 0, 0);
+    }
+
+    #pizza-icon {
+        height: 7vh;
+    }
+
+    .cardapio-card {
+        grid-template-columns: 0.9fr 0.7fr;
+    }
+
+    .cardapio-card .cardapio-card-1 {
+        display: none;
+    }
+
+    #pizza-price {
+        font-size: 19px;
+    }
+
+    .button-add-cart {
+        height: 4vh;
     }
 }
