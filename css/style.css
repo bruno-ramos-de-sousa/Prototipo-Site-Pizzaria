@@ -1,27 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /*! ------------------------------------------ Configurações Gerais ------------------------------------------ */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
 }
 
 main {
-    min-width: 100vw;
+  max-width: 100vw;
 }
 
 body {
-    background-image: url(../img/background.jpg);
-    background-size: 156px;
-    font-family: 'Be Vietnam Pro', sans-serif;
+  background-image: url(../img/background.jpg);
+  background-size: 156px;
+  font-family: "Poppins", sans-serif;
 }
 
 button {
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
 }
 
 /*
@@ -29,165 +31,170 @@ button {
 */
 
 header {
-    max-width: 100vw;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+  max-width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 header a {
-    color: #f4f4f4;
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
+  color: #f4f4f4;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 header ul {
-    min-width: fit-content;
+  min-width: fit-content;
 }
 
 header ul li a:hover {
-    color: #7a0000;
-    transition: 0.3s;
+  color: #7a0000;
+  transition: 0.3s;
 }
 
 header ul li a:focus {
-    color: #7a0000;
-    transition: 0.3s;
+  color: #7a0000;
+  transition: 0.3s;
 }
 
 header a img:hover {
-    scale: 1.04;
+  scale: 1.04;
 }
 
 header a:focus {
-    scale: 1.04;
+  scale: 1.04;
 }
 
 nav {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    align-items: center;
-    gap: 7%;
-    position: relative;
-    background-color: #ff751f;
-    max-width: 100vw;
-    min-height: 10vh;
-    padding: 15px 40px;
-    z-index: 10;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  gap: 7%;
+  position: relative;
+  background-color: #ff751f;
+  max-width: 100vw;
+  min-height: 10vh;
+  padding: 15px 40px;
+  z-index: 10;
 }
 
 .caixa-pesquisa {
-    height: 90%;
-    width: 20vw;
-    padding: 15px 30px;
-    border-radius: 30px;
-    border: 2px solid #7a0000;
-    font-size: 22px;
-    text-align: center;
-    font-weight: bold;
+  height: 90%;
+  width: 20vw;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: 2px solid #7a0000;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .list-without-bullets {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 6vw;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6vw;
 }
 
 .user-greeting {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 
 .user-greeting p {
-    font-size: 22px;
-    color: #7a0000;
-    font-weight: bold;
+  font-size: 22px;
+  color: #7a0000;
+  font-weight: bold;
 }
 
 .buttons-back {
-    display: flex;
-    gap: 44px;
-    align-items: center;
-    min-height: 100%;
+  display: flex;
+  gap: 44px;
+  align-items: center;
+  min-height: 100%;
 }
 
 .pizza-card {
-    margin: auto;
+  margin: auto;
 }
 
 .pizza-card img {
-    width: 100%;
-    padding-bottom: 30px;
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 #logo {
-    width: 7%;
+  width: 7%;
 }
 
 #shopping-cart {
-    width: 4.5vw;
+  width: 4.5vw;
 }
 
 #cadastro-button {
-    background-color: #f4f4f4;
-    border-radius: 30px;
-    min-width: fit-content;
-    padding: 20px;
-    color: #252526;
+  background-color: #f4f4f4;
+  border-radius: 30px;
+  min-width: fit-content;
+  padding: 20px;
+  color: #252526;
 }
 
 #cadastro-button:hover {
-    background-color: #7a0000;
-    color: #f4f4f4;
-    transition: 0.3s;
+  background-color: #7a0000;
+  color: #f4f4f4;
+  transition: 0.3s;
 }
 
 #cadastro-button:focus {
-    background-color: #7a0000;
-    color: #f4f4f4;
-    transition: 0.3s;
+  background-color: #7a0000;
+  color: #f4f4f4;
+  transition: 0.3s;
 }
 
 #user-photo {
-    width: 100%;
+  width: 100%;
 }
 
 #pizza-fundo {
-    position: absolute;
-    right: 0;
-    top: -10vh;
-    height: 90vh;
-    z-index: -1;
+  position: absolute;
+  right: 0;
+  top: -10vh;
+  height: 90vh;
+  z-index: -1;
 }
 
 #fogos {
-    position: relative;
-    z-index: 3;
-    margin-left: 10px;
-    margin-top: -80px;
-    width: 95%;
-    object-fit: cover;
+  position: relative;
+  z-index: 3;
+  margin-left: 10px;
+  margin-top: -80px;
+  width: 95%;
+  object-fit: cover;
 }
 
 #seta-cardapio {
-    height: 7vh;
+  height: 7vh;
 }
 
 #button-back-red {
-    height: 6vh;
-    min-height: 44px;
+  height: 6vh;
+  min-height: 44px;
 }
 
 #button-back-yellow {
-    height: 6vh;
-    min-height: 44px;
+  height: 6vh;
+  min-height: 44px;
 }
 
 /*
@@ -199,25 +206,25 @@ nav {
 */
 
 .body-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    min-height: 100vh;
-    height: 100vh;
-    height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 100vh;
+  height: 100vh;
+  height: fit-content;
 }
 
 .body-card-white {
-    background-color: #faf9f6;
-    padding: 20px;
-    margin: auto;
+  background-color: #faf9f6;
+  padding: 20px;
+  margin: auto;
 }
 
 .body-card-orange {
-    background-color: #ff751fdc;
-    width: 100%;
-    height: 100%;
-    justify-items: center;
-    align-content: center;
+  background-color: #ff751fdc;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  align-content: center;
 }
 
 /*
@@ -225,64 +232,64 @@ nav {
 */
 
 .body-card-orange h2 {
-    color: #faf9f6;
-    font-size: 52px;
-    text-align: center;
+  color: #faf9f6;
+  font-size: 52px;
+  text-align: center;
 }
 
 .body-card-orange p {
-    color: #faf9f6;
-    font-size: 28px;
-    margin-top: 40px;
+  color: #faf9f6;
+  font-size: 28px;
+  margin-top: 40px;
 }
 
 .body-card-orange a {
-    color: #faf9f6;
-    font-weight: bold;
-    font-size: 22px;
+  color: #faf9f6;
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .body-card-orange .flex-row-unjustify input {
-    margin: 12px 12px;
-    height: 20px;
-    width: 20px;
+  margin: 12px 12px;
+  height: 20px;
+  width: 20px;
 }
 
 .body-card-orange input {
-    width: 100%;
-    height: 6vh;
-    border-radius: 8px;
-    text-indent: 15px;
-    font-size: 20px;
+  width: 100%;
+  height: 6vh;
+  border-radius: 8px;
+  text-indent: 15px;
+  font-size: 20px;
 }
 
 .body-card-orange button {
-    margin-top: 24px;
-    width: 22vw;
-    background-color: #ff751f;
-    border: 2px solid #faf9f6;
-    font-size: 22px;
-    font-weight: bold;
-    padding: 15px 20px;
-    border-radius: 8px;
+  margin-top: 24px;
+  width: 22vw;
+  background-color: #ff751f;
+  border: 2px solid #faf9f6;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 8px;
 }
 
 .body-card-orange button:hover {
-    cursor: pointer;
-    background-color: #7a0000;
-    color: #f4f4f4;
-    transition: 0.3s;
+  cursor: pointer;
+  background-color: #7a0000;
+  color: #f4f4f4;
+  transition: 0.3s;
 }
 
 .body-card-orange button:focus {
-    cursor: pointer;
-    background-color: #7a0000;
-    color: #f4f4f4;
-    transition: 0.3s;
+  cursor: pointer;
+  background-color: #7a0000;
+  color: #f4f4f4;
+  transition: 0.3s;
 }
 
 .body-card-orange form {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /*
@@ -290,70 +297,80 @@ nav {
 */
 
 .cardapio-button {
-    display: flex;
-    min-width: fit-content;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ff914d;
-    border-radius: 22px;
-    padding: 10px;
-    text-decoration: none;
-    color: #7a0000;
-    font-size: 44px;
-    font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  min-width: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff914d;
+  border-radius: 22px;
+  padding: 10px;
+  text-decoration: none;
+  color: #7a0000;
+  font-size: 44px;
+  font-weight: bold;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .cardapio-button:hover {
-    scale: 1.01;
-    background-color: #ffc099;
-    transition: 0.3s;
+  scale: 1.01;
+  background-color: #ffc099;
+  transition: 0.3s;
 }
 
 .cardapio-button:focus {
-    scale: 1.01;
-    background-color: #ffc099;
-    transition: 0.3s;
+  scale: 1.01;
+  background-color: #ffc099;
+  transition: 0.3s;
 }
 
 .container {
-    align-self: center;
-    justify-self: center;
-    padding: 18px;
-    width: fit-content;
-    height: fit-content;
+  align-self: center;
+  justify-self: center;
+  padding: 18px;
+  width: fit-content;
+  height: fit-content;
 }
 
 .conttent-box {
-    position: relative;
-    z-index: 1;
-    max-width: 100%;
-    width: fit-content;
-    background-color: #ff914d;
-    border-radius: 22px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    text-align: center;
-    padding: 15px 20px;
-    margin: auto;
-    margin-top: 20px;
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  width: fit-content;
+  background-color: #ff914d;
+  border-radius: 22px;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: center;
+  padding: 15px 20px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 #about-us .conttent-box {
-    background-color: #F5E6CA;
-    color: #252526;
+  background-color: #f5e6ca;
+  color: #252526;
 }
 
 .flex-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .flex-row-unjustify {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
 }
 
 /*
@@ -365,23 +382,28 @@ nav {
 */
 
 footer {
-    position: absolute;
-    bottom: end;
-    width: 100%;
-    max-width: 100vw;
-    background-color: #ff751f;
-    text-align: center;
-    color: #faf9f6;
-    padding: 10px 0px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: absolute;
+  bottom: end;
+  width: 100%;
+  max-width: 100vw;
+  background-color: #ff751f;
+  text-align: center;
+  color: #faf9f6;
+  padding: 10px 0px;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 footer p {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 footer small {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 /*
@@ -393,114 +415,119 @@ footer small {
 */
 
 .cardapio-grid {
-    display: grid;
-    grid-template-rows: auto;
-    margin: auto;
-    margin-bottom: 4vh;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    padding: 10px 20px;
-    margin-top: 5vh;
-    width: 55vw;
-    height: 65vh;
-    background-color: #ffc099;
-    border-radius: 8px;
-    overflow-y: scroll;
-    overflow-x: hidden;
+  display: grid;
+  grid-template-rows: auto;
+  margin: auto;
+  margin-bottom: 4vh;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px 20px;
+  margin-top: 5vh;
+  width: 55vw;
+  height: 65vh;
+  background-color: #ffc099;
+  border-radius: 8px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .cardapio-card {
-    display: grid;
-    margin: 4px;
-    height: 13vh;
-    grid-template-columns: 0.3fr 1fr 0.3fr;
-    background-color: #f4f4f4;
-    border-radius: 7px;
-    padding: 10px;
+  display: grid;
+  margin: 4px;
+  height: 13vh;
+  grid-template-columns: 0.3fr 1fr 0.3fr;
+  background-color: #f4f4f4;
+  border-radius: 7px;
+  padding: 10px;
 }
 
 .cardapio-card-1 {
-    align-items: center;
-    display: flex;
-    margin: auto;
+  align-items: center;
+  display: flex;
+  margin: auto;
 }
 
 .cardapio-card-2 {
-    margin-left: 10px;
-    justify-items: start;
+  margin-left: 10px;
+  justify-items: start;
 }
 
 .cardapio-card-3 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .conttent-box h1 {
-    font-size: 60px;
-    color: #7a0000;
+  font-size: 60px;
+  color: #7a0000;
 }
 
 .conttent-box h2 {
-    color: #7a0000;
-    font-size: 43px;
+  color: #7a0000;
+  font-size: 43px;
 }
 
 .conttent-box h3 {
-    color: #7a0000;
-    font-size: 40px;
-    padding: 15px 2px;
+  color: #7a0000;
+  font-size: 40px;
+  padding: 15px 2px;
 }
 
 .pizzas-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .pizza-img {
-    height: 8vh;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 5px;
+  height: 8vh;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .pizza-name {
-    font-size: 18px;
-    color: #7a0000;
-    font-weight: bold;
-    margin-top: 8px;
-    margin-bottom: 4px;
+  font-size: 18px;
+  color: #7a0000;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 4px;
 }
 
 .pizza-desc {
-    font-size: 14px;
-    color: #252526;
-    margin-bottom: 8px;
-    line-height: 1.3;
+  font-size: 14px;
+  color: #252526;
+  margin-bottom: 8px;
+  line-height: 1.3;
 }
 
 .button-add-cart {
-    height: 6vh;
+  height: 6vh;
 }
 
 .button-add-cart:hover {
-    scale: 1.1;
-    transition: 0.3s;
+  scale: 1.1;
+  transition: 0.3s;
 }
 
 .button-add-cart:focus {
-    scale: 1.1;
-    transition: 0.3s;
+  scale: 1.1;
+  transition: 0.3s;
 }
 
 #cardapio {
-    height: 100%;
+  height: 100%;
 }
 
 #pizza-price {
-    font-size: 25px;
-    color: #ff751f;
-    font-weight: bold;
-    margin-top: 10px;
+  font-size: 25px;
+  color: #ff751f;
+  font-weight: bold;
+  align-self: center;
 }
 
 /*
@@ -508,374 +535,406 @@ footer small {
 */
 
 #pizza-icon {
-    height: 100%;
+  height: 100%;
 }
 
 #about-us {
-    padding: 5vh 2vh;
-    text-align: center;
+  padding: 5vh 2vh;
+  text-align: center;
 }
 
 #about-us .conttent-box {
-    padding-top: 2vh;
-    padding-bottom: 4vh;
-    margin-bottom: 4vh;
-    max-width: 80vw;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  margin-bottom: 4vh;
+  max-width: 80vw;
 }
 
 #about-us h1 {
-    font-size: 60px;
-    margin: 10px;
-    color: #7a0000;
+  font-size: 60px;
+  margin: 10px;
+  color: #7a0000;
 }
 
 #about-us small {
-    font-size: 27px;
-    color: #7a0000;
+  font-size: 27px;
+  color: #7a0000;
 }
 
 #about-us .conttent-box h2 {
-    padding-top: 2vh;
+  padding-top: 2vh;
 }
 
 #about-us .conttent-box li {
-    margin-top: 5px;
-    text-align: justify;
-    justify-self: center;
-    max-width: 60%;
+  margin-top: 5px;
+  text-align: justify;
+  justify-self: center;
+  max-width: 60%;
 }
 
 #about-us .conttent-box p {
-    text-align: justify;
-    justify-self: center;
-    max-width: 70%;
+  text-align: justify;
+  justify-self: center;
+  max-width: 70%;
 }
 
 .body-card-orange #login p {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #logo-loja {
-    height: 50vh;
-    align-self: center;
-    margin: auto;
+  height: 50vh;
+  align-self: center;
+  margin: auto;
 }
 
 #icon-servidor {
-    height: 65vh;
-    align-self: center;
-    margin: auto;
+  height: 65vh;
+  align-self: center;
+  margin: auto;
 }
 
-
 @media (max-width: 1440px) {
-    nav {
-        gap: 4%;
-    }
+  nav {
+    gap: 4%;
+  }
 
-    .cardapio-card {
-        grid-template-columns: 0.4fr 0.9fr 0.5fr;
-    }
+  .cardapio-card {
+    grid-template-columns: 0.4fr 0.9fr 0.5fr;
+  }
 }
 
 @media (max-width: 1024px) {
-    nav {
-        gap: 2%;
-    }
+  nav {
+    gap: 2%;
+  }
 
-    header a {
-        color: #f4f4f4;
-        font-size: 18px;
-        font-weight: bold;
-        text-decoration: none;
-    }
+  header a {
+    color: #f4f4f4;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+  }
 
-    #logo-loja {
-        height: 30vh;
-    }
+  #logo-loja {
+    height: 30vh;
+  }
 
-    #icon-servidor {
-        height: 30vh;
-    }
+  #icon-servidor {
+    height: 30vh;
+  }
 
-    .body-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        min-height: 80vh;
-        height: fit-content;
-    }
+  .body-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 80vh;
+    height: fit-content;
+  }
 
-    .body-card-orange h2 {
-        color: #faf9f6;
-        font-size: 41px;
-        text-align: center;
-    }
+  .body-card-orange h2 {
+    color: #faf9f6;
+    font-size: 41px;
+    text-align: center;
+  }
 
-    .body-card-orange p {
-        color: #faf9f6;
-        font-size: 23px;
-        margin-top: 40px;
-    }
+  .body-card-orange p {
+    color: #faf9f6;
+    font-size: 23px;
+    margin-top: 40px;
+  }
 
-    .body-card-orange a {
-        color: #faf9f6;
-        font-weight: bold;
-        font-size: 22px;
-    }
+  .body-card-orange a {
+    color: #faf9f6;
+    font-weight: bold;
+    font-size: 22px;
+  }
 
-    .body-card-orange .flex-row-unjustify input {
-        margin: 12px 12px;
-        height: 20px;
-        width: 20px;
-    }
+  .body-card-orange .flex-row-unjustify input {
+    margin: 12px 12px;
+    height: 20px;
+    width: 20px;
+  }
 
-    .body-card-orange input {
-        width: 100%;
-        height: 6vh;
-        border-radius: 8px;
-        text-indent: 15px;
-        font-size: 20px;
-    }
+  .body-card-orange input {
+    width: 100%;
+    height: 6vh;
+    border-radius: 8px;
+    text-indent: 15px;
+    font-size: 20px;
+  }
 
-    .body-card-orange button {
-        margin-top: 24px;
-        width: 100%;
-        background-color: #ff751f;
-        border: 2px solid #faf9f6;
-        font-size: 22px;
-        font-weight: bold;
-        padding: 15px 20px;
-        border-radius: 8px;
-    }
+  .body-card-orange button {
+    margin-top: 24px;
+    width: 100%;
+    background-color: #ff751f;
+    border: 2px solid #faf9f6;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 8px;
+  }
 
-    #cadastro-button {
-        background-color: #f4f4f4;
-        border-radius: 30px;
-        min-width: fit-content;
-        padding: 15px;
-        color: #252526;
-        min-width: 30px;
-    }
+  #cadastro-button {
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    min-width: fit-content;
+    padding: 15px;
+    color: #252526;
+    min-width: 30px;
+  }
 
-    .cardapio-grid {
-        width: 80%;
-    }
+  .cardapio-grid {
+    width: 80%;
+  }
 
-    .cardapio-card {
-        grid-template-columns: 0.4fr 0.9fr 0.4fr;
-    }
+  .cardapio-card {
+    grid-template-columns: 0.4fr 0.9fr 0.4fr;
+  }
 
-    .caixa-pesquisa {
-        width: 100%;
-        padding: 10px;
-        border-radius: 30px;
-        border: 2px solid #7a0000;
-        font-size: 18px;
-        text-align: center;
-        font-weight: bold;
-    }
+  .caixa-pesquisa {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid #7a0000;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+  }
 
-    #shopping-cart {
-        width: 80%;
-        height: 80%;
-    }
+  #shopping-cart {
+    width: 80%;
+    height: 80%;
+  }
 
-    #cardapio .conttent-box h1 {
-        font-size: 50px;
-        color: rgb(122, 0, 0);
-    }
+  #cardapio .conttent-box h1 {
+    font-size: 50px;
+    color: rgb(122, 0, 0);
+  }
 }
 
 @media (max-width: 768px) {
-    nav {
-        gap: 3%;
-    }
+  nav {
+    gap: 3%;
+  }
 
-    #button-back-red {
-        height: 80%;
-    }
+  .buttons-back {
+    gap: 24px;
+  }
 
-    #button-back-yellow {
-        height: 80%;
-    }
+  #button-back-red {
+    height: 80%;
+  }
 
-    #login .body-grid .container {
-        display: none;
-    }
+  #button-back-yellow {
+    height: 80%;
+  }
 
-    #cadastro .body-grid .container {
-        display: none;
-    }
+  .user-greeting p {
+    font-size: 18px;
+  }
 
-    .body-card-orange {
-        min-height: 100vh;
-    }
+  #user-photo {
+    width: 150%;
+  }
 
-    .cardapio-button {
-        margin-top: 0vh;
-        display: flex;
-        min-width: fit-content;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #ff914d;
-        border-radius: 22px;
-        padding: 10px;
-        text-decoration: none;
-        color: #7a0000;
-        font-size: 44px;
-        font-weight: bold;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    }
+  #login .body-grid .container {
+    display: none;
+  }
 
-    .caixa-pesquisa {
-        width: 100%;
-        padding: 6px;
-        border-radius: 30px;
-        border: 2px solid #7a0000;
-        font-size: 16px;
-        text-align: center;
-        font-weight: bold;
-    }
+  #cadastro .body-grid .container {
+    display: none;
+  }
 
-    .body-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .body-card-orange {
+    min-height: 100vh;
+  }
 
-    #cadastro-button {
-        background-color: #f4f4f4;
-        border-radius: 30px;
-        min-width: fit-content;
-        padding: 5px;
-        color: #252526;
-        min-width: 30px;
-    }
+  .cardapio-button {
+    margin-top: 0vh;
+    display: flex;
+    min-width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff914d;
+    border-radius: 22px;
+    padding: 10px;
+    text-decoration: none;
+    color: #7a0000;
+    font-size: 44px;
+    font-weight: bold;
+    box-shadow:
+      rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
 
-    .cardapio-card {
-        grid-template-columns: 0.4fr 0.8fr 0.5fr;
-    }
+  .caixa-pesquisa {
+    width: 100%;
+    padding: 6px;
+    border-radius: 30px;
+    border: 2px solid #7a0000;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+  }
 
-    #shopping-cart {
-        width: 70%;
-        height: 70%;
-    }
+  .body-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #cadastro-button {
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    min-width: fit-content;
+    padding: 5px;
+    color: #252526;
+    min-width: 30px;
+  }
+
+  .cardapio-card {
+    grid-template-columns: 0.4fr 0.8fr 0.5fr;
+  }
+
+  #shopping-cart {
+    width: 70%;
+    height: 70%;
+  }
 }
 
 @media (max-width: 425px) {
-    nav {
-        gap: 2%;
-    }
+  nav {
+    gap: 2%;
+  }
 
-    .buttons-back {
-        gap: 18px;
-    }
+  .buttons-back {
+    gap: 18px;
+  }
 
-    #button-back-red {
-        height: 60%;
-    }
+  #button-back-red {
+    height: 40%;
+  }
 
-    #button-back-yellow {
-        height: 50%;
-    }
+  #button-back-yellow {
+    height: 50%;
+  }
 
-    .user-greeting p {
-        font-size: 15px;
-        color: #7a0000;
-        font-weight: bold;
-    }
+  #user-photo {
+    display: none;
+  }
 
-    header a {
-        color: #f4f4f4;
-        font-size: 12px;
-        font-weight: bold;
-        text-decoration: none;
-    }
+  #search {
+    display: none;
+  }
 
-    .cardapio-button {
-        margin-top: 0vh;
-        display: flex;
-        min-width: fit-content;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #ff914d;
-        border-radius: 22px;
-        padding: 10px;
-        text-decoration: none;
-        color: #7a0000;
-        font-size: 35px;
-        font-weight: bold;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    }
+  .user-greeting p {
+    font-size: 12px;
+    color: #7a0000;
+    font-weight: bold;
+  }
 
-    .caixa-pesquisa {
-        width: 50px;
-        padding: 6px;
-        border-radius: 30px;
-        border: 2px solid #7a0000;
-        font-size: 8px;
-        text-align: center;
-        font-weight: bold;
-    }
+  header a {
+    color: #f4f4f4;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+  }
 
-    .body-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        min-height: 100vh;
-    }
+  .cardapio-button {
+    margin-top: 0vh;
+    display: flex;
+    min-width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff914d;
+    border-radius: 22px;
+    padding: 10px;
+    text-decoration: none;
+    color: #7a0000;
+    font-size: 35px;
+    font-weight: bold;
+    box-shadow:
+      rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
 
-    #cadastro-button {
-        background-color: #f4f4f4;
-        border-radius: 30px;
-        min-width: fit-content;
-        padding: 5px;
-        color: #252526;
-        min-width: 30px;
-    }
+  .cardapio-grid {
+    width: 90%;
+    padding: 10px 15px;
+  }
 
-    #shopping-cart {
-        width: 27px;
-    }
+  .pizza-name {
+    font-size: 14px;
+  }
 
-    #about-us h1 {
-        font-size: 40px;
-    }
+  .pizza-desc {
+    font-size: 12px;
+  }
 
-    .conttent-box h2 {
-        font-size: 25px;
-    }
+  #pizza-price {
+    font-size: 16px;
+  }
 
-    #about-us .conttent-box li {
-        font-size: 14px;
-        max-width: 93%;
-    }
+  .body-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    min-height: 100vh;
+  }
 
-    #about-us .conttent-box p {
-        font-size: 14px;
-        max-width: 93%;
-    }
+  #cadastro-button {
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    min-width: fit-content;
+    padding: 5px;
+    color: #252526;
+    min-width: 30px;
+  }
 
-    #cardapio .conttent-box h1 {
-        font-size: 30px;
-        color: rgb(122, 0, 0);
-    }
+  #shopping-cart {
+    width: 27px;
+  }
 
-    #pizza-icon {
-        height: 7vh;
-    }
+  #about-us h1 {
+    font-size: 40px;
+  }
 
-    .cardapio-card {
-        grid-template-columns: 0.9fr 0.7fr;
-    }
+  .conttent-box h2 {
+    font-size: 25px;
+  }
 
-    .cardapio-card .cardapio-card-1 {
-        display: none;
-    }
+  #about-us .conttent-box li {
+    font-size: 14px;
+    max-width: 93%;
+  }
 
-    #pizza-price {
-        font-size: 19px;
-    }
+  #about-us .conttent-box p {
+    font-size: 14px;
+    max-width: 93%;
+  }
 
-    .button-add-cart {
-        height: 4vh;
-    }
+  #cardapio .conttent-box h1 {
+    font-size: 30px;
+    color: rgb(122, 0, 0);
+  }
+
+  #pizza-icon {
+    height: 7vh;
+  }
+
+  .cardapio-card {
+    grid-template-columns: 0.9fr 0.7fr;
+  }
+
+  .cardapio-card .cardapio-card-1 {
+    display: none;
+  }
+
+  .button-add-cart {
+    height: 4vh;
+  }
 }
