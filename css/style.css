@@ -162,6 +162,27 @@ nav {
   transition: 0.3s;
 }
 
+#jump-text-name {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+#jump-text-email{
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+#jump-text-senha {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
 #user-photo {
   width: 100%;
 }
@@ -240,7 +261,7 @@ nav {
 .body-card-orange p {
   color: #faf9f6;
   font-size: 28px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .body-card-orange a {
@@ -259,6 +280,7 @@ nav {
   width: 100%;
   height: 6vh;
   border-radius: 8px;
+  border: 3px solid;
   text-indent: 15px;
   font-size: 20px;
 }
@@ -290,6 +312,7 @@ nav {
 
 .body-card-orange form {
   margin-top: 20px;
+  width: 100%;
 }
 
 /*
@@ -488,6 +511,11 @@ footer small {
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
+transition: opacity 0.5s ease-in-out;
+}
+
+.pizza-img.fade-in {
+  opacity: 1;
 }
 
 .pizza-name {
@@ -640,7 +668,7 @@ footer small {
   .body-card-orange p {
     color: #faf9f6;
     font-size: 23px;
-    margin-top: 40px;
+    margin-top: 0px;
   }
 
   .body-card-orange a {
@@ -665,6 +693,7 @@ footer small {
 
   .body-card-orange button {
     margin-top: 24px;
+    margin-bottom: 24px;
     width: 100%;
     background-color: #ff751f;
     border: 2px solid #faf9f6;
